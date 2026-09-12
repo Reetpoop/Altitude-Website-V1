@@ -1,0 +1,15 @@
+{
+  "home": "index.html",
+  "commercial": "commercial.html",
+  "industrial": "industrial.html",
+  "residential": "residential.html",
+  "solar": "solar-panels.html",
+  "about": "company.html",
+  "safety": "safety-permits.html",
+  "resources": "resources.html",
+  "purewater": "pure-water.html",
+  "preparation": "site-preparation.html",
+  "quote": "get-a-quote.html",
+  "demo": "request-a-demo.html",
+  "film": "cleaning-video.html"
+}
