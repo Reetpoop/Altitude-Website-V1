@@ -1,0 +1,533 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap');
+#altitude-concept{--ar-ink:#111715;--ar-muted:#5b635e;--ar-green:#b5f548;--ar-forest:#295b37;--ar-paper:#f6f7f3;--ar-line:#dce1d9;color:var(--ar-ink);background:#fff;font-family:Inter,Arial,sans-serif;font-size:15px;line-height:1.6;width:100%;overflow:clip;color-scheme:light}
+#altitude-concept *{box-sizing:border-box}#altitude-concept [hidden]{display:none!important}#altitude-concept :is(button,a:where([data-route]),a:where([data-scroll])),#altitude-concept input,#altitude-concept select,#altitude-concept textarea{font:inherit}#altitude-concept :is(button,a:where([data-route]),a:where([data-scroll])),#altitude-concept a{-webkit-tap-highlight-color:transparent}#altitude-concept :is(button,a:where([data-route]),a:where([data-scroll])){cursor:pointer}#altitude-concept h1,#altitude-concept h2,#altitude-concept h3,#altitude-concept p{margin:0}#altitude-concept h1,#altitude-concept h2,#altitude-concept h3{font-family:Poppins,Inter,Arial,sans-serif;font-weight:400;letter-spacing:-.045em;line-height:1.14}#altitude-concept a{color:inherit}#altitude-concept img{display:block;width:100%;height:100%;object-fit:cover}#altitude-concept svg{flex-shrink:0}#altitude-concept .ar-inner{width:100%;padding:0 6%}#altitude-concept .ar-kicker{display:block;font-size:11px;letter-spacing:.16em;font-weight:500;text-transform:uppercase;line-height:1.5;margin-bottom:20px}#altitude-concept .ar-heading{font-size:clamp(30px,4.5vw,49px)}#altitude-concept .ar-muted{color:var(--ar-muted)}
+#altitude-concept .ar-button{display:inline-flex;justify-content:center;align-items:center;gap:20px;border:1px solid transparent;padding:13px 21px;min-height:46px;background:var(--ar-green);color:#111715;border-radius:4px;font-size:13px;font-weight:500;text-decoration:none;letter-spacing:-.01em;transition:background .18s,transform .18s}#altitude-concept .ar-button:hover{background:#c8ff73;transform:translateY(-1px)}#altitude-concept .ar-button.ar-outline{background:transparent;border-color:#66716a;color:#fff}#altitude-concept .ar-button.ar-outline:hover{background:#ffffff14}#altitude-concept .ar-button.ar-black{background:var(--ar-ink);color:#fff}#altitude-concept .ar-textlink{display:inline-flex;gap:13px;align-items:center;color:inherit;background:none;border:0;border-bottom:1px solid currentColor;padding:0 0 5px;min-height:36px;font-size:13px;font-weight:500;text-decoration:none}#altitude-concept .ar-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:29px}
+#altitude-concept .ar-nav{position:relative;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:19px 4%;background:#111715;color:#fff;border-bottom:1px solid #ffffff12}#altitude-concept .ar-logo{display:flex;align-items:center;gap:10px;flex-shrink:0;border:0;color:inherit;background:none;text-align:left;padding:0;text-decoration:none}#altitude-concept .ar-logo-letter{font-family:Arial,sans-serif;font-style:italic;font-weight:500;font-size:43px;line-height:1;color:var(--ar-green)}#altitude-concept .ar-wordmark{font-family:Inter,Arial,sans-serif;font-weight:500;font-size:16px;line-height:1.05;letter-spacing:.08em}#altitude-concept .ar-wordmark small{display:block;letter-spacing:.29em;font-size:8px;margin-top:7px}#altitude-concept .ar-links{display:flex;align-items:center;gap:26px;margin-left:auto}#altitude-concept .ar-navlink{padding:7px 0;background:none;color:inherit;border:0;display:flex;align-items:center;gap:5px;font-size:12px;white-space:nowrap}#altitude-concept .ar-navlink:hover{color:var(--ar-green)}#altitude-concept .ar-nav .ar-button{min-height:40px;padding:10px 15px;font-size:12px;gap:12px}#altitude-concept .ar-mobile-toggle{display:none;background:none;color:#fff;border:1px solid #57605b;border-radius:4px;padding:9px}#altitude-concept .ar-dropdown{position:absolute;top:100%;left:0;width:100%;padding:30px 6%;background:#19211c;border-top:1px solid #3d483f;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;box-shadow:0 18px 30px #0003}#altitude-concept .ar-dropdown :is(button,a:where([data-route]),a:where([data-scroll])){color:white;background:none;border:0;border-left:1px solid #495448;padding:9px 18px;text-align:left;font-size:16px}#altitude-concept .ar-dropdown :is(button,a:where([data-route]),a:where([data-scroll])):hover{color:var(--ar-green)}#altitude-concept .ar-dropdown small{display:block;color:#a8b4aa;font-size:11px;margin-top:8px}
+#altitude-concept .ar-hero{position:relative;background:#273b3b;color:#fff;min-height:610px;display:flex;align-items:flex-end;padding:165px 6% 63px;isolation:isolate}#altitude-concept .ar-hero-photo,#altitude-concept .ar-hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3}#altitude-concept .ar-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#07131316 5%,#07131321 22%,#081410b5 70%,#081410e3);z-index:-1}#altitude-concept .ar-hero-copy{width:100%;text-align:center}#altitude-concept .ar-hero .ar-kicker{margin-bottom:17px;color:#e2eadd;font-size:11px}#altitude-concept .ar-hero h1{font-size:clamp(38px,6.3vw,69px);letter-spacing:-.045em;line-height:1.06;max-width:870px;margin:auto}#altitude-concept .ar-hero-sub{font-size:17px;margin:22px auto 0;color:#f2f4ef}#altitude-concept .ar-hero .ar-actions{justify-content:center;margin-top:27px}#altitude-concept .ar-hero-scope{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#c6cfc9;margin-top:28px}#altitude-concept .ar-film-control{position:absolute;right:22px;bottom:22px;border:1px solid #ffffff80;background:#14231f80;color:#fff;border-radius:50%;width:35px;height:35px;display:grid;place-items:center;padding:7px}#altitude-concept .ar-hero-credit{position:absolute;top:20px;right:22px;font-size:9px;letter-spacing:.06em;background:#10251e77;padding:4px 8px;color:#f2f4f1}#altitude-concept .ar-trustbar{padding:20px 6%;display:flex;gap:20px;justify-content:space-between;align-items:center;background:#edf1e8;color:#344031;font-size:11px}#altitude-concept .ar-trustbar span{display:inline-flex;gap:9px;align-items:center}#altitude-concept .ar-trustbar i{width:16px}
+#altitude-concept .ar-about{padding:92px 6% 77px}#altitude-concept .ar-split{display:grid;grid-template-columns:1.1fr 1fr;gap:9%;align-items:start}#altitude-concept .ar-about .ar-intro{padding-top:32px}#altitude-concept .ar-intro p{font-size:15px;color:var(--ar-muted);line-height:1.8}#altitude-concept .ar-intro .ar-textlink{margin-top:24px}#altitude-concept .ar-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:35px;margin-top:63px}#altitude-concept .ar-benefit{border-top:1px solid var(--ar-line);padding-top:24px}#altitude-concept .ar-benefit>i,#altitude-concept .ar-benefit>svg{color:var(--ar-forest);width:26px;height:26px;margin-bottom:23px}#altitude-concept .ar-benefit h3{font-size:22px;margin-bottom:12px;letter-spacing:-.03em}#altitude-concept .ar-benefit p{font-size:13px;color:var(--ar-muted);line-height:1.75}
+#altitude-concept .ar-services{background:var(--ar-paper);padding:80px 6% 86px}#altitude-concept .ar-sectionhead{display:flex;align-items:flex-end;justify-content:space-between;gap:45px;margin-bottom:40px}#altitude-concept .ar-sectionhead>p{font-size:13px;max-width:260px;color:var(--ar-muted)}#altitude-concept .ar-servicegrid{display:grid;grid-template-columns:1fr 1fr;gap:25px}#altitude-concept .ar-service{background:#fff;display:block;text-align:left;color:inherit;border:0;padding:0;overflow:hidden;border-radius:3px}#altitude-concept .ar-service-image{height:240px;overflow:hidden;position:relative}#altitude-concept .ar-service-image img{transition:transform .35s}#altitude-concept .ar-service:hover .ar-service-image img{transform:scale(1.035)}#altitude-concept .ar-servicebody{padding:26px 27px 28px;position:relative}#altitude-concept .ar-service h3{font-size:30px;margin-bottom:13px}#altitude-concept .ar-service p{font-size:13px;line-height:1.7;color:var(--ar-muted);padding-right:20px;min-height:66px}#altitude-concept .ar-service .ar-kicker{font-size:10px;margin-bottom:10px;color:#65705f}#altitude-concept .ar-cardlink{display:flex;justify-content:space-between;align-items:center;padding-top:25px;font-size:12px;font-weight:500}#altitude-concept .ar-cardlink .ar-roundarrow{display:grid;place-items:center;width:31px;height:31px;background:#f0f3ed;border-radius:50%;color:#273e29}#altitude-concept .ar-service:hover .ar-roundarrow{background:var(--ar-green)}
+#altitude-concept .ar-comparison{background:#141d18;color:#fff;padding:82px 6%}#altitude-concept .ar-comparison .ar-kicker{color:var(--ar-green)}#altitude-concept .ar-comparison .ar-sectionhead>p{color:#adb9b0;max-width:285px}#altitude-concept .ar-comparetable{width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed}#altitude-concept .ar-comparetable th{font-size:12px;font-weight:500;padding:23px 14px;text-align:left;vertical-align:bottom;border-bottom:1px solid #3d4a40}#altitude-concept .ar-comparetable th:first-child{width:20%}#altitude-concept .ar-comparetable th:last-child{width:25%;background:var(--ar-green);color:#152310;border-radius:5px 5px 0 0}#altitude-concept .ar-comparetable th:last-child small{display:block;font-size:9px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:5px}#altitude-concept .ar-comparetable td{padding:22px 14px;border-bottom:1px solid #344237;vertical-align:top;color:#b9c2ba;line-height:1.6;overflow-wrap:anywhere}#altitude-concept .ar-comparetable td:first-child{color:#fff}#altitude-concept .ar-comparetable td:last-child{background:#243322;color:#eef6e7;border-color:#3e5037}#altitude-concept .ar-comparefoot{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-top:27px}#altitude-concept .ar-comparefoot p{font-size:11px;max-width:525px;color:#a8b5a9}
+#altitude-concept .ar-method{padding:90px 6%;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}#altitude-concept .ar-methodphoto{position:relative;height:500px;background:#23382d;border-radius:4px;overflow:hidden}#altitude-concept .ar-methodphoto img{object-position:66% center}#altitude-concept .ar-imagecredit{position:absolute;bottom:13px;left:14px;right:14px;display:flex;gap:8px;align-items:center;justify-content:space-between;color:#fff;font-size:9px;letter-spacing:.02em;background:#1117158c;padding:6px 9px;border-radius:2px}#altitude-concept .ar-method h2{margin-bottom:24px}#altitude-concept .ar-method p{color:var(--ar-muted);font-size:14px}#altitude-concept .ar-steps{margin-top:29px}#altitude-concept .ar-step{padding:15px 0;border-top:1px solid var(--ar-line);display:flex;gap:16px;align-items:baseline}#altitude-concept .ar-step>span{font-size:10px;color:#778071}#altitude-concept .ar-step h3{font-family:Inter,sans-serif;font-size:14px;letter-spacing:-.01em;font-weight:500;margin-bottom:5px}#altitude-concept .ar-step p{font-size:12px}
+#altitude-concept .ar-credentials{padding:78px 6% 84px;background:#edf2e8}#altitude-concept .ar-credentials .ar-split{align-items:center;margin-bottom:39px}#altitude-concept .ar-credentialgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px}#altitude-concept .ar-credential{background:#fff;border:1px solid #dce4d6;padding:30px;display:grid;grid-template-columns:auto 1fr;column-gap:20px;align-items:start}#altitude-concept .ar-credential>svg{width:26px;height:26px;color:#355c3a}#altitude-concept .ar-credential h3{font-size:21px;letter-spacing:-.025em;line-height:1.25;margin-bottom:10px}#altitude-concept .ar-credential p{font-size:12px;color:var(--ar-muted)}#altitude-concept .ar-credential small{display:block;font-size:10px;letter-spacing:.08em;color:#51714e;margin-top:17px;text-transform:uppercase}#altitude-concept .ar-credential-note{font-size:11px;color:#5b6956;margin-top:22px}
+#altitude-concept .ar-faq{padding:84px 6%;display:grid;grid-template-columns:1fr 1.5fr;gap:9%}#altitude-concept .ar-faqintro p{font-size:13px;color:var(--ar-muted);margin-top:23px}#altitude-concept .ar-faq details{border-top:1px solid var(--ar-line)}#altitude-concept .ar-faq details:last-child{border-bottom:1px solid var(--ar-line)}#altitude-concept .ar-faq summary{padding:22px 0;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;font-size:14px;font-weight:500}#altitude-concept .ar-faq summary::-webkit-details-marker{display:none}#altitude-concept .ar-faq summary:after{content:'+';font-size:20px;font-weight:400;line-height:1}#altitude-concept .ar-faq details[open] summary:after{content:'−'}#altitude-concept .ar-faq details>p{font-size:13px;color:var(--ar-muted);line-height:1.75;padding:0 28px 24px 0}
+#altitude-concept .ar-close{display:grid;grid-template-columns:.9fr 1.1fr;background:#19271e;color:#fff;min-height:380px}#altitude-concept .ar-closephoto{min-height:340px;position:relative}#altitude-concept .ar-closephoto:after{position:absolute;inset:0;content:'';background:#12321f33}#altitude-concept .ar-closecopy{padding:60px 11%}#altitude-concept .ar-close h2{font-size:clamp(30px,4vw,42px)}#altitude-concept .ar-close p{font-size:13px;color:#c2cec3;margin-top:23px}#altitude-concept .ar-close .ar-kicker{color:var(--ar-green)}
+#altitude-concept .ar-footer{background:#111715;color:#fff;padding:56px 6% 25px}#altitude-concept .ar-footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:35px;margin-bottom:45px}#altitude-concept .ar-footer-tag{font-size:12px;color:#a6b0a8;max-width:240px;margin-top:19px}#altitude-concept .ar-footer h3{font-family:Inter,Arial,sans-serif;font-size:11px;letter-spacing:.05em;color:#acb9aa;font-weight:500;margin-bottom:13px}#altitude-concept .ar-footer :is(button,a:where([data-route]),a:where([data-scroll])):not(.ar-logo){background:none;border:0;color:#e1e8df;font-size:12px;text-align:left;padding:4px 0;display:block;line-height:1.8}#altitude-concept .ar-footer :is(button,a:where([data-route]),a:where([data-scroll])):hover{color:var(--ar-green)}#altitude-concept .ar-footer-bottom{border-top:1px solid #334035;padding-top:23px;display:flex;justify-content:space-between;gap:15px;font-size:10px;color:#98a497;flex-wrap:wrap}#altitude-concept .ar-footer-bottom a{text-decoration:underline;text-underline-offset:3px}
+#altitude-concept .ar-subhero{display:grid;grid-template-columns:1.12fr 1fr;background:var(--ar-paper);min-height:470px}#altitude-concept .ar-subhero-copy{padding:65px 10% 60px 12%}#altitude-concept .ar-subhero h1{font-size:clamp(35px,4.8vw,53px)}#altitude-concept .ar-subhero p{font-size:15px;color:var(--ar-muted);margin-top:23px}#altitude-concept .ar-subhero-img{min-height:380px;position:relative}#altitude-concept .ar-breadcrumb{background:none;border:0;color:#5b6857;padding:0;font-size:11px;letter-spacing:.02em;display:flex;align-items:center;gap:8px;margin-bottom:30px}#altitude-concept .ar-servicearticle{display:grid;grid-template-columns:1.6fr 1fr;gap:10%;padding:76px 6%}#altitude-concept .ar-prose h2{font-size:29px;line-height:1.2;margin:0 0 20px}#altitude-concept .ar-prose h3{font-size:22px;line-height:1.25;margin:35px 0 15px}#altitude-concept .ar-prose p{font-size:14px;color:var(--ar-muted);line-height:1.85;margin-bottom:17px}#altitude-concept .ar-sidepanel{background:var(--ar-paper);border-top:3px solid var(--ar-green);padding:30px;align-self:start}#altitude-concept .ar-sidepanel h3{font-size:21px;margin-bottom:20px}#altitude-concept .ar-sidepanel ul{padding:0;list-style:none;margin:0}#altitude-concept .ar-sidepanel li{padding:13px 0;border-top:1px solid var(--ar-line);font-size:13px}#altitude-concept .ar-sidepanel small{display:block;color:var(--ar-muted);font-size:11px;margin-top:20px}#altitude-concept .ar-subcta{padding:58px 6%;background:#e6f1d7;display:flex;gap:35px;align-items:center;justify-content:space-between}#altitude-concept .ar-subcta h2{font-size:32px;max-width:560px}#altitude-concept .ar-related{padding:40px 6%;display:flex;align-items:center;gap:25px;flex-wrap:wrap}#altitude-concept .ar-related>span{font-size:11px;color:#5b635e;margin-right:auto}#altitude-concept .ar-related :is(button,a:where([data-route]),a:where([data-scroll])){font-size:12px}
+#altitude-concept .ar-pageheading{padding:65px 6%;background:var(--ar-paper)}#altitude-concept .ar-pageheading h1{font-size:clamp(38px,5.6vw,60px);max-width:760px}#altitude-concept .ar-pageheading p{margin-top:23px;max-width:580px;color:var(--ar-muted);font-size:15px}#altitude-concept .ar-content{padding:66px 6%}#altitude-concept .ar-content.ar-narrow{max-width:810px;margin:auto}#altitude-concept .ar-story{padding:76px 6%;display:grid;grid-template-columns:1fr 1.1fr;gap:8%}#altitude-concept .ar-story img{height:420px}#altitude-concept .ar-vision{padding:70px 10%;text-align:center;background:#213e2a;color:#fff}#altitude-concept .ar-vision h2{font-size:clamp(30px,4vw,46px);max-width:770px;margin:auto}#altitude-concept .ar-vision .ar-kicker{color:var(--ar-green)}#altitude-concept .ar-resources{display:grid;grid-template-columns:1fr 1fr;gap:28px}#altitude-concept .ar-resource{border:1px solid var(--ar-line);padding:0;background:#fff;color:inherit;text-align:left}#altitude-concept .ar-resource img{height:230px}#altitude-concept .ar-resourcecopy{padding:30px}#altitude-concept .ar-resource h2{font-size:29px}#altitude-concept .ar-resource p{margin:16px 0 24px;color:var(--ar-muted);font-size:13px}#altitude-concept .ar-fullfilm{width:100%;display:block;background:#19231e;aspect-ratio:16/9}#altitude-concept .ar-filmcaption{font-size:12px;color:var(--ar-muted);margin-top:20px}#altitude-concept .ar-quotelayout{display:grid;grid-template-columns:1fr 1.4fr;gap:10%;padding:66px 6%}#altitude-concept .ar-quoteintro h2{font-size:31px}#altitude-concept .ar-quoteintro>p{font-size:14px;color:var(--ar-muted);margin-top:20px}#altitude-concept .ar-quoteintro img{height:230px;margin-top:35px;border-radius:3px}#altitude-concept .ar-form{display:grid;grid-template-columns:1fr 1fr;gap:21px}#altitude-concept .ar-field{display:flex;flex-direction:column;gap:8px;font-size:12px;font-weight:500}#altitude-concept .ar-field.ar-full{grid-column:1/-1}#altitude-concept .ar-field input,#altitude-concept .ar-field select,#altitude-concept .ar-field textarea{width:100%;min-width:0;border:1px solid #d1d8ce;background:#fff;border-radius:3px;padding:12px;color:var(--ar-ink);font-size:16px;font-weight:400;min-height:47px}#altitude-concept .ar-field textarea{min-height:125px;resize:vertical}#altitude-concept .ar-formfoot{grid-column:1/-1;font-size:11px;color:var(--ar-muted)}#altitude-concept .ar-form-result{grid-column:1/-1;padding:18px;background:#edf5e4;color:#274429;border:1px solid #d2e4bf;font-size:13px}#altitude-concept .ar-form .ar-button{justify-self:start}#altitude-concept .ar-form .ar-field input::placeholder,#altitude-concept .ar-form textarea::placeholder{color:#899084}
+@media(max-width:800px){#altitude-concept .ar-links{gap:17px}#altitude-concept .ar-nav{gap:17px}#altitude-concept .ar-navlink{font-size:11px}#altitude-concept .ar-nav>.ar-button{display:none}#altitude-concept .ar-hero{min-height:545px;padding-top:180px}#altitude-concept .ar-service-image{height:210px}#altitude-concept .ar-methodphoto{height:440px}#altitude-concept .ar-method{gap:6%}#altitude-concept .ar-comparetable td,#altitude-concept .ar-comparetable th{padding:18px 10px;font-size:11px}#altitude-concept .ar-closecopy{padding:50px 9%}}
+@media(max-width:620px){#altitude-concept .ar-nav{padding:15px 5%;gap:12px;flex-wrap:wrap}#altitude-concept .ar-mobile-toggle{display:flex;margin-left:auto}#altitude-concept .ar-links{display:none;width:100%;flex-wrap:wrap;gap:6px 25px;order:4}#altitude-concept .ar-links.ar-mobile-open{display:flex}#altitude-concept .ar-navlink{min-height:40px;font-size:13px}#altitude-concept .ar-dropdown{grid-template-columns:1fr 1fr;gap:15px;padding:22px 5%}#altitude-concept .ar-dropdown :is(button,a:where([data-route]),a:where([data-scroll])){font-size:14px;padding:8px 12px}#altitude-concept .ar-wordmark{font-size:14px}#altitude-concept .ar-logo-letter{font-size:36px}#altitude-concept .ar-hero{min-height:560px;padding:190px 6% 58px}#altitude-concept .ar-hero h1{font-size:40px;line-height:1.08}#altitude-concept .ar-hero-sub{font-size:14px;max-width:280px}#altitude-concept .ar-hero-scope{font-size:9px;max-width:270px;margin:25px auto 0;line-height:1.8}#altitude-concept .ar-hero-credit{font-size:8px;top:14px;right:15px}#altitude-concept .ar-hero .ar-button{font-size:12px;padding:12px 15px;gap:10px}#altitude-concept .ar-trustbar{gap:12px;flex-wrap:wrap;justify-content:center;font-size:10px}#altitude-concept .ar-trustbar>span:last-child{display:none}#altitude-concept .ar-about,#altitude-concept .ar-services,#altitude-concept .ar-comparison,#altitude-concept .ar-credentials{padding:56px 6%}#altitude-concept .ar-split{grid-template-columns:1fr;gap:25px}#altitude-concept .ar-about .ar-intro{padding-top:0}#altitude-concept .ar-benefits{grid-template-columns:1fr;gap:28px;margin-top:38px}#altitude-concept .ar-benefit{display:grid;grid-template-columns:28px 1fr;gap:8px 17px;padding-top:20px}#altitude-concept .ar-benefit>svg{margin:0;grid-row:1/3}#altitude-concept .ar-benefit h3{font-size:22px;margin:0}#altitude-concept .ar-benefit p{grid-column:2}#altitude-concept .ar-sectionhead{display:block;margin-bottom:28px}#altitude-concept .ar-sectionhead>p{margin-top:20px;max-width:100%}#altitude-concept .ar-servicegrid{grid-template-columns:1fr;gap:24px}#altitude-concept .ar-service-image{height:245px}#altitude-concept .ar-servicebody{padding:24px}#altitude-concept .ar-service p{min-height:0;padding:0}#altitude-concept .ar-comparetable thead{display:none}#altitude-concept .ar-comparetable,#altitude-concept .ar-comparetable tbody{display:block}#altitude-concept .ar-comparetable tr{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid #45543e;padding-bottom:14px;margin-bottom:16px}#altitude-concept .ar-comparetable td{display:block;padding:12px;font-size:12px;border:0}#altitude-concept .ar-comparetable td:first-child{grid-column:1/-1;font-size:14px;padding-left:0}#altitude-concept .ar-comparetable td:not(:first-child):before{content:attr(data-label);display:block;color:#98a890;font-size:9px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em}#altitude-concept .ar-comparetable td:last-child:before{color:var(--ar-green)}#altitude-concept .ar-comparefoot{display:block}#altitude-concept .ar-comparefoot .ar-textlink{margin-top:22px}#altitude-concept .ar-method{grid-template-columns:1fr;padding:55px 6%;gap:35px}#altitude-concept .ar-methodphoto{height:350px}#altitude-concept .ar-methodphoto img{object-position:center}#altitude-concept .ar-credentialgrid{grid-template-columns:1fr}#altitude-concept .ar-credential{padding:24px}#altitude-concept .ar-faq{grid-template-columns:1fr;gap:32px;padding:55px 6%}#altitude-concept .ar-faq summary{font-size:13px}#altitude-concept .ar-close{grid-template-columns:1fr}#altitude-concept .ar-closephoto{height:250px;min-height:250px}#altitude-concept .ar-closecopy{padding:43px 6% 50px}#altitude-concept .ar-footer-top{grid-template-columns:1fr 1fr;gap:35px}#altitude-concept .ar-footer-top>div:first-child{grid-column:1/-1}#altitude-concept .ar-footer-bottom{display:block;line-height:1.9}#altitude-concept .ar-footer-bottom>span{display:block;margin-top:10px}#altitude-concept .ar-subhero{grid-template-columns:1fr}#altitude-concept .ar-subhero-copy{padding:45px 6%}#altitude-concept .ar-subhero-img{height:290px;min-height:290px}#altitude-concept .ar-servicearticle{grid-template-columns:1fr;padding:50px 6%;gap:30px}#altitude-concept .ar-subcta{display:block;padding:40px 6%}#altitude-concept .ar-subcta .ar-button{margin-top:24px}#altitude-concept .ar-subcta h2{font-size:29px}#altitude-concept .ar-story,#altitude-concept .ar-quotelayout{grid-template-columns:1fr;padding:45px 6%;gap:35px}#altitude-concept .ar-story img{height:300px}#altitude-concept .ar-resources{grid-template-columns:1fr}#altitude-concept .ar-quoteintro img{display:none}#altitude-concept .ar-form{grid-template-columns:1fr}#altitude-concept .ar-pageheading{padding:45px 6%}#altitude-concept .ar-content{padding:40px 6%}#altitude-concept .ar-related{gap:18px}#altitude-concept .ar-related>span{width:100%}}
+@media(prefers-reduced-motion:reduce){#altitude-concept *{transition:none!important;scroll-behavior:auto!important}}
+#altitude-concept{--ar-ink:#111713;--ar-muted:#5b635f;--ar-green:#b4f547;--ar-paper:#f4f6f4;font-size:16px}
+#altitude-concept .ar-kicker{font-size:12px;margin-bottom:18px;letter-spacing:.15em}
+#altitude-concept .ar-heading{font-size:clamp(34px,4.4vw,54px);line-height:1.14}
+#altitude-concept .ar-button,#altitude-concept .ar-textlink{font-size:14px;min-height:46px}
+#altitude-concept .ar-button{border-radius:6px;padding:13px 20px;gap:12px}
+#altitude-concept .ar-nav{background:#fff;color:var(--ar-ink);padding:11px 4%;gap:25px;min-height:102px;border-bottom:1px solid #e5e9e5}
+#altitude-concept .ar-logo img{width:105px;height:79px;object-fit:contain}
+#altitude-concept .ar-navlink{font-size:14px;min-height:44px}
+#altitude-concept .ar-navlink:hover{color:#427020}
+#altitude-concept .ar-links{gap:24px}
+#altitude-concept .ar-nav-actions{display:flex;gap:10px;flex-shrink:0}
+#altitude-concept .ar-nav .ar-button{font-size:14px;min-height:46px;padding:11px 17px}
+#altitude-concept .ar-nav .ar-outline{color:#172119;border-color:#c4cbc4;background:#fff}
+#altitude-concept .ar-nav .ar-outline:hover{background:#f1f4ee}
+#altitude-concept .ar-mobile-toggle{color:#172119;min-height:44px;min-width:44px;border-color:#c4cbc4}
+#altitude-concept .ar-dropdown small{font-size:13px}
+#altitude-concept .ar-hero{min-height:620px;padding:235px 6% 76px;background:#1c302d}
+#altitude-concept .ar-hero:after{background:linear-gradient(180deg,#06130b00 10%,#06110c0d 38%,#06110cab 78%,#06110cdc)}
+#altitude-concept .ar-hero h1{font-size:clamp(44px,6.7vw,84px);max-width:1100px;line-height:1.04;letter-spacing:-.055em}
+#altitude-concept .ar-hero-sub{font-size:clamp(16px,1.9vw,22px);margin-top:24px;color:#fff}
+#altitude-concept .ar-hero-sub span{white-space:nowrap}
+#altitude-concept .ar-hero-credit{top:18px;right:20px;font-size:12px;letter-spacing:0;border-radius:3px;background:#13241d96}
+#altitude-concept .ar-film-control{width:44px;height:44px;right:22px;bottom:20px}
+#altitude-concept .ar-about{padding:104px 6% 85px}
+#altitude-concept .ar-about .ar-split{grid-template-columns:1fr 1fr;gap:7%;align-items:center}
+#altitude-concept .ar-approach-media{height:510px;position:relative;border-radius:12px;overflow:hidden;background:#26392e}
+#altitude-concept .ar-approach-media img{object-position:66% center}
+#altitude-concept .ar-about .ar-intro{padding:0}
+#altitude-concept .ar-about .ar-intro h2{margin-bottom:28px}
+#altitude-concept .ar-intro p{font-size:16px;line-height:1.8}
+#altitude-concept .ar-imagecredit{font-size:12px;letter-spacing:0}
+#altitude-concept .ar-selling-points{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:55px}
+#altitude-concept .ar-selling-point{background:#101c15;color:#fff;border-radius:12px;padding:30px 28px;min-height:206px}
+#altitude-concept .ar-selling-point strong{display:block;font:500 clamp(38px,5.4vw,64px)/1.1 Poppins,Arial,sans-serif;letter-spacing:-.06em;margin-bottom:22px;color:#b4f547}
+#altitude-concept .ar-selling-point p{font-size:16px;line-height:1.5;color:#f1f5f0}
+#altitude-concept .ar-selling-point small{display:block;font-size:12px;line-height:1.5;color:#aab6ab;margin-top:8px}
+#altitude-concept .ar-services{padding:90px 6% 100px;background:#f4f6f4}
+#altitude-concept .ar-service{border-radius:10px}
+#altitude-concept .ar-service-image{height:275px}
+#altitude-concept .ar-service p{font-size:16px;min-height:82px}
+#altitude-concept .ar-service .ar-kicker{font-size:12px}
+#altitude-concept .ar-cardlink{font-size:14px;padding-top:24px}
+#altitude-concept .ar-comparison{background:#0e1913;padding:94px 6%}
+#altitude-concept .ar-comparison-head{margin-bottom:46px}
+#altitude-concept .ar-comparison-head p{font-size:16px;line-height:1.75;color:#bac7bf;max-width:720px;margin-top:25px}
+#altitude-concept .ar-compare-new{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:16px}
+#altitude-concept .ar-compare-new .ar-topic{width:24%}
+#altitude-concept .ar-compare-new .ar-option{width:38%}
+#altitude-concept .ar-compare-new th,#altitude-concept .ar-compare-new td{text-align:left;vertical-align:top;padding:24px;border-bottom:1px solid #2a382f;font-weight:400}
+#altitude-concept .ar-compare-new thead th{padding:28px 24px 26px}
+#altitude-concept .ar-compare-new thead th:first-child{vertical-align:bottom;padding-left:0;color:#a7b5aa;font-size:14px}
+#altitude-concept .ar-compare-new thead th:last-child{border-radius:14px 14px 0 0}
+#altitude-concept .ar-compare-new th:last-child,#altitude-concept .ar-compare-new td:last-child{background:#17291c;border-bottom-color:#304132}
+#altitude-concept .ar-compare-new tbody tr:last-child td:last-child{border-radius:0 0 14px 14px}
+#altitude-concept .ar-compare-new h3{font-size:26px;line-height:1.2;letter-spacing:-.04em;margin-bottom:8px}
+#altitude-concept .ar-compare-new .ar-col-description{font-size:13px;color:#bbc5bd;display:block;min-height:42px;margin-bottom:20px}
+#altitude-concept .ar-compare-new .ar-comparison-image{height:155px;width:100%;border-radius:6px;object-fit:cover}
+#altitude-concept .ar-compare-new .ar-image-label{display:block;font-size:12px;color:#aebbb1;margin-top:9px}
+#altitude-concept .ar-compare-new tbody th{font-size:15px;padding-left:0;vertical-align:middle;color:#eef3ed;line-height:1.5}
+#altitude-concept .ar-check-copy{display:flex;align-items:flex-start;gap:12px;font-size:15px;line-height:1.7;color:#c1cbc3}
+#altitude-concept .ar-check-copy .ar-cross{color:#f4766c;font-size:24px;line-height:1;flex-shrink:0}
+#altitude-concept .ar-check-copy .ar-tick{color:#77df8c;font-size:22px;line-height:1.15;flex-shrink:0}
+#altitude-concept .ar-compare-new td:last-child .ar-check-copy{color:#f3f7f0}
+#altitude-concept .ar-comparefoot p{font-size:13px;max-width:690px;line-height:1.7}
+#altitude-concept .ar-trusted{padding:95px 6% 90px;background:#fff}
+#altitude-concept .ar-trusted .ar-heading{max-width:790px}
+#altitude-concept .ar-client-logos{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;margin:48px 0 32px}
+#altitude-concept .ar-client-logo{display:flex;align-items:center;justify-content:center;min-height:88px;background:#f3f5f3;border-radius:10px;color:#718076;font-size:12px;text-transform:uppercase;letter-spacing:.1em;text-align:center;padding:12px}
+#altitude-concept .ar-testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+#altitude-concept .ar-testimonial{background:#f3f5f3;border-radius:14px;padding:28px;min-height:245px;display:flex;flex-direction:column}
+#altitude-concept .ar-testimonial .ar-kicker{font-size:12px;letter-spacing:.08em;color:#708075}
+#altitude-concept .ar-testimonial p{font-family:Poppins,Arial,sans-serif;font-size:20px;letter-spacing:-.025em;line-height:1.55;margin:4px 0 24px;color:#7b887f}
+#altitude-concept .ar-testimonial small{display:block;font-size:14px;color:#56675d;margin-top:auto}
+#altitude-concept .ar-proof-note{font-size:13px;color:#63736a;margin-top:24px;line-height:1.7}
+#altitude-concept .ar-credentials{padding:88px 6%;background:#f2f5f1}
+#altitude-concept .ar-credentials .ar-split{grid-template-columns:1fr 1fr;gap:8%;margin:0;align-items:center}
+#altitude-concept .ar-permit-copy p{font-size:16px;color:#58665c;line-height:1.8;margin-top:25px}
+#altitude-concept .ar-permit-copy .ar-textlink{margin-top:26px}
+#altitude-concept .ar-permit-stage{padding:38px;background:#e4eae1;border-radius:16px}
+#altitude-concept .ar-permit{min-height:415px;background:white;border:1px solid #d3dccf;border-radius:3px;padding:35px 32px;display:flex;flex-direction:column;box-shadow:0 18px 30px #1825180a}
+#altitude-concept .ar-permit-top{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#68756c;border-bottom:1px solid #e4e9e1;padding-bottom:20px}
+#altitude-concept .ar-permit h3{font-size:29px;line-height:1.2;margin:33px 0 16px}
+#altitude-concept .ar-permit p{font-size:16px;color:#526458}
+#altitude-concept .ar-permit .ar-permit-pending{margin:auto 0 0;padding-top:38px;font-size:13px;color:#7a897d;line-height:1.6}
+#altitude-concept .ar-permit small{font-size:12px;line-height:1.7;display:block;color:#7a897d;margin-top:20px;border-top:1px solid #e4e9e1;padding-top:20px}
+#altitude-concept .ar-faq{padding:90px 6%;gap:7%;grid-template-columns:1fr 1.5fr}
+#altitude-concept .ar-faq summary{font-size:16px;line-height:1.5;padding:25px 0}
+#altitude-concept .ar-faq details>p{font-size:16px}
+#altitude-concept .ar-close{background:#142219;grid-template-columns:1fr 1.1fr}
+#altitude-concept .ar-closecopy{padding:76px 10%}
+#altitude-concept .ar-close h2{font-size:clamp(36px,4.6vw,55px)}
+#altitude-concept .ar-close p{font-size:16px;line-height:1.8}
+#altitude-concept .ar-footer{background:#0d1711}
+#altitude-concept .ar-footer .ar-logo{background:#fff;border-radius:5px;padding:9px 18px}
+#altitude-concept .ar-footer .ar-logo img{height:86px;width:114px}
+#altitude-concept .ar-footer-tag,#altitude-concept .ar-footer-top :is(button,a:where([data-route]),a:where([data-scroll])):not(.ar-logo){font-size:14px}
+#altitude-concept .ar-footer-top h3,#altitude-concept .ar-footer-bottom{font-size:12px}
+#altitude-concept .ar-prose p,#altitude-concept .ar-pageheading p,#altitude-concept .ar-subhero p,#altitude-concept .ar-quoteintro>p,#altitude-concept .ar-resource p,#altitude-concept .ar-credential p{font-size:16px}
+#altitude-concept .ar-field,#altitude-concept .ar-step h3,#altitude-concept .ar-sidepanel li,#altitude-concept .ar-breadcrumb{font-size:14px}
+#altitude-concept .ar-step p{font-size:14px}
+#altitude-concept .ar-formfoot,#altitude-concept .ar-sidepanel small,#altitude-concept .ar-credential small,#altitude-concept .ar-related>span{font-size:12px}
+#altitude-concept .ar-form-result{font-size:16px}
+#altitude-concept .ar-subcta{background:#edf1e9}
+@media(min-width:1450px){#altitude-concept .ar-hero{min-height:740px}}
+@media(max-width:1050px){#altitude-concept .ar-nav{gap:16px;padding-left:3%;padding-right:3%}#altitude-concept .ar-links{gap:16px}#altitude-concept .ar-nav-actions{gap:8px}#altitude-concept .ar-nav .ar-button{padding:11px 14px}#altitude-concept .ar-nav-actions svg{display:none}#altitude-concept .ar-approach-media{height:510px}#altitude-concept .ar-heading{font-size:40px}#altitude-concept .ar-testimonial{padding:24px}#altitude-concept .ar-testimonial p{font-size:18px}#altitude-concept .ar-permit-stage{padding:25px}}
+@media(max-width:850px){#altitude-concept .ar-mobile-toggle{display:flex;align-items:center;justify-content:center;margin-left:auto;order:2}#altitude-concept .ar-nav-actions{order:1;margin-left:auto}#altitude-concept .ar-links{display:none;order:3;width:100%;margin:0;flex-wrap:wrap;gap:5px 26px;padding:12px 0}#altitude-concept .ar-links.ar-mobile-open{display:flex}#altitude-concept .ar-nav{flex-wrap:wrap;gap:10px}#altitude-concept .ar-mobile-toggle{margin-left:0}#altitude-concept .ar-about .ar-split{gap:5%}#altitude-concept .ar-approach-media{height:530px}#altitude-concept .ar-heading{font-size:34px}#altitude-concept .ar-selling-point{padding:25px 22px}#altitude-concept .ar-selling-point strong{font-size:45px}#altitude-concept .ar-compare-new th,#altitude-concept .ar-compare-new td,#altitude-concept .ar-compare-new thead th{padding:20px 15px}#altitude-concept .ar-check-copy{font-size:14px;gap:8px}#altitude-concept .ar-compare-new h3{font-size:22px}#altitude-concept .ar-client-logos{grid-template-columns:repeat(3,1fr)}#altitude-concept .ar-permit{padding:25px;min-height:390px}#altitude-concept .ar-permit h3{font-size:25px}}
+@media(max-width:620px){#altitude-concept .ar-nav{padding:9px 5%;min-height:90px;gap:10px}#altitude-concept .ar-logo img{width:85px;height:66px}#altitude-concept .ar-nav-actions{gap:8px}#altitude-concept .ar-nav .ar-button{font-size:14px;min-height:44px;padding:10px 13px}#altitude-concept .ar-nav-actions .ar-outline{display:none}#altitude-concept .ar-nav-actions.ar-mobile-open{width:100%;order:4;justify-content:flex-start}#altitude-concept .ar-nav-actions.ar-mobile-open .ar-outline{display:inline-flex}#altitude-concept .ar-mobile-toggle{order:2}#altitude-concept .ar-hero{min-height:540px;padding:240px 6% 78px}#altitude-concept .ar-hero h1{font-size:clamp(40px,10.3vw,61px);max-width:480px}#altitude-concept .ar-hero-sub{max-width:310px;font-size:16px;line-height:1.9;margin-top:22px}#altitude-concept .ar-hero-credit{font-size:12px;right:16px}#altitude-concept .ar-about,#altitude-concept .ar-services,#altitude-concept .ar-comparison,#altitude-concept .ar-trusted,#altitude-concept .ar-credentials{padding:58px 6%}#altitude-concept .ar-about .ar-split,#altitude-concept .ar-credentials .ar-split{grid-template-columns:1fr;gap:34px}#altitude-concept .ar-approach-media{height:330px}#altitude-concept .ar-heading{font-size:36px}#altitude-concept .ar-selling-points{grid-template-columns:1fr;gap:14px;margin-top:34px}#altitude-concept .ar-selling-point{min-height:0;padding:25px;display:grid;grid-template-columns:100px 1fr;gap:14px 15px;align-items:center}#altitude-concept .ar-selling-point strong{font-size:36px;margin:0;letter-spacing:-.06em}#altitude-concept .ar-selling-point small{grid-column:2;margin:-8px 0 0}#altitude-concept .ar-selling-point:first-child strong{font-size:57px}#altitude-concept .ar-service-image{height:250px}#altitude-concept .ar-service p{min-height:0}#altitude-concept .ar-comparison-head{margin-bottom:26px}#altitude-concept .ar-comparison-head p{font-size:16px}#altitude-concept .ar-compare-new{display:block}#altitude-concept .ar-compare-new colgroup{display:none}#altitude-concept .ar-compare-new thead,#altitude-concept .ar-compare-new tbody{display:block}#altitude-concept .ar-compare-new thead tr{display:grid;grid-template-columns:1fr 1fr}#altitude-concept .ar-compare-new thead th:first-child{display:none}#altitude-concept .ar-compare-new thead th{padding:18px 12px}#altitude-concept .ar-compare-new h3{font-size:20px;min-height:49px}#altitude-concept .ar-compare-new .ar-col-description{font-size:12px;min-height:78px;margin-bottom:12px}#altitude-concept .ar-compare-new .ar-comparison-image{height:108px}#altitude-concept .ar-compare-new .ar-image-label{font-size:12px;line-height:1.5}#altitude-concept .ar-compare-new tbody tr{display:grid;grid-template-columns:1fr 1fr}#altitude-concept .ar-compare-new tbody th{grid-column:1/-1;background:#0e1913;padding:24px 0 10px;border-bottom:0;font-size:14px}#altitude-concept .ar-compare-new td{padding:14px 12px 20px}#altitude-concept .ar-check-copy{font-size:14px;line-height:1.7;display:block}#altitude-concept .ar-check-copy .ar-cross,#altitude-concept .ar-check-copy .ar-tick{display:block;margin-bottom:9px}#altitude-concept .ar-client-logos{gap:12px;margin:32px 0 24px}#altitude-concept .ar-client-logo{font-size:12px;letter-spacing:0;min-height:75px;padding:9px}#altitude-concept .ar-testimonials{grid-template-columns:1fr;gap:16px}#altitude-concept .ar-testimonial{min-height:205px;padding:25px}#altitude-concept .ar-testimonial p{font-size:21px}#altitude-concept .ar-permit-stage{padding:25px}#altitude-concept .ar-permit{min-height:405px}#altitude-concept .ar-faq{grid-template-columns:1fr;padding:58px 6%;gap:28px}#altitude-concept .ar-faq summary{font-size:16px}#altitude-concept .ar-close{grid-template-columns:1fr}#altitude-concept .ar-closecopy{padding:48px 6% 56px}#altitude-concept .ar-close h2{font-size:38px}#altitude-concept .ar-closephoto{height:250px;min-height:250px}}
+@media(max-width:360px){#altitude-concept .ar-nav{gap:7px}#altitude-concept .ar-nav .ar-button{padding:10px 12px}#altitude-concept .ar-logo img{width:75px;height:62px}#altitude-concept .ar-heading{font-size:32px}#altitude-concept .ar-selling-point{grid-template-columns:89px 1fr;padding:21px}#altitude-concept .ar-selling-point strong{font-size:31px}#altitude-concept .ar-compare-new .ar-col-description{min-height:92px}#altitude-concept .ar-permit-stage{padding:18px}}
+
+#altitude-concept .ar-comparison-image[data-image="traditional"]{object-position:center 72%}
+#altitude-concept{--ar-green:#39ff14;--ar-paper:#f3f5f4;--ar-nav-height:102px}
+#altitude-concept .ar-button{background:var(--ar-green)}
+#altitude-concept .ar-button:hover{background:#71ff57}
+#altitude-concept .ar-hero{min-height:800px;padding:300px 6% 100px}
+#altitude-concept[data-experience="website"] .ar-hero{min-height:max(520px,calc(100svh - var(--ar-nav-height)));padding:170px 6% 90px}
+#altitude-concept .ar-hero h1{font-size:clamp(46px,6.6vw,88px);max-width:1080px}
+#altitude-concept .ar-hero-sub{font-size:clamp(18px,2vw,24px);max-width:none}
+#altitude-concept .ar-selling-points{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+#altitude-concept .ar-selling-point{padding:30px 24px;min-height:224px}
+#altitude-concept .ar-selling-point strong{color:var(--ar-green);font-size:clamp(35px,4.2vw,60px);white-space:nowrap;letter-spacing:-.055em}
+#altitude-concept .ar-selling-point:first-child strong{font-size:64px}
+#altitude-concept .ar-selling-point p{font-size:16px}
+#altitude-concept .ar-credentials{background:#f1f3f5}
+#altitude-concept .ar-permit-stage{background:#e0e5e9;padding:36px;max-width:550px;width:100%;justify-self:end}
+#altitude-concept .ar-permit{aspect-ratio:210 / 297;min-height:535px;background:#fff;border-color:#cbd2d9;padding:40px 34px}
+#altitude-concept .ar-permit h3{font-size:30px;margin-top:48px}
+#altitude-concept .ar-permit-pending{color:#6e7b73}
+#altitude-concept .ar-navlink[aria-current="page"]{text-decoration:underline;text-decoration-color:#2c7321;text-underline-offset:8px}
+#altitude-concept .ar-category-hero{position:relative;isolation:isolate;display:flex;align-items:flex-end;min-height:620px;padding:160px 6% 70px;background:#16251d;color:white}
+#altitude-concept .ar-category-hero>img{position:absolute;inset:0;z-index:-2;object-position:center}
+#altitude-concept .ar-category-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#07110cb3,#07110c1a 85%),linear-gradient(0deg,#07110cbd,transparent 85%);z-index:-1}
+#altitude-concept .ar-category-copy{max-width:850px}
+#altitude-concept .ar-category-copy .ar-kicker{color:#d5e0d7;font-size:13px}
+#altitude-concept .ar-category-copy h1{font-size:clamp(42px,5.5vw,74px);line-height:1.08;letter-spacing:-.05em;max-width:960px}
+#altitude-concept .ar-category-copy p{font-size:18px;line-height:1.7;max-width:610px;color:#edf1ee;margin-top:25px}
+#altitude-concept .ar-category-credit{position:absolute;top:22px;right:24px;background:#17281f9c;color:#fff;font-size:12px;border-radius:4px;padding:5px 10px}
+#altitude-concept .ar-category-intro{display:grid;grid-template-columns:1fr 1fr;gap:9%;padding:88px 6% 58px;align-items:start;background:#fff}
+#altitude-concept .ar-category-intro>p{font-size:17px;line-height:1.85;color:#526258;padding-top:30px}
+#altitude-concept .ar-coverage{padding:0 6% 80px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;background:#fff}
+#altitude-concept .ar-coverage article{padding:28px 0;border-top:1px solid #d7e0d9}
+#altitude-concept .ar-coverage .ar-coverage-number{font-size:13px;letter-spacing:.08em;color:#607366;display:block;margin-bottom:24px}
+#altitude-concept .ar-coverage h3{font-size:25px;letter-spacing:-.035em;line-height:1.2;margin-bottom:15px}
+#altitude-concept .ar-coverage p{font-size:16px;line-height:1.8;color:#5b695f}
+#altitude-concept .ar-category-method{display:grid;grid-template-columns:1fr 1fr;gap:7%;padding:82px 6%;background:#f1f4f2;align-items:center}
+#altitude-concept .ar-category-media{position:relative;height:620px;background:#14241a;border-radius:12px;overflow:hidden;margin:0}
+#altitude-concept .ar-category-media>img{height:100%;object-fit:cover}
+#altitude-concept .ar-category-media figcaption{position:absolute;left:18px;bottom:18px;right:18px;background:#0c1a12b8;color:#fff;font-size:12px;line-height:1.6;padding:9px 12px;border-radius:3px}
+#altitude-concept .ar-category-method h2{font-size:clamp(32px,3.5vw,44px);line-height:1.18;margin-bottom:26px}
+#altitude-concept .ar-operation{padding:22px 0;border-top:1px solid #d0dbd2;display:grid;grid-template-columns:28px 1fr;gap:16px}
+#altitude-concept .ar-operation>span{font-size:13px;color:#617467;padding-top:3px}
+#altitude-concept .ar-operation h3{font-family:Inter,Arial,sans-serif;font-size:18px;line-height:1.4;letter-spacing:-.015em;font-weight:500;margin-bottom:10px}
+#altitude-concept .ar-operation p{font-size:16px;line-height:1.8;color:#56665b}
+#altitude-concept .ar-delivery{display:grid;grid-template-columns:1fr 1.2fr;gap:10%;padding:70px 6%;align-items:start;background:#fff}
+#altitude-concept .ar-delivery h2{font-size:34px}
+#altitude-concept .ar-delivery ul{list-style:none;padding:0;margin:0}
+#altitude-concept .ar-delivery li{border-top:1px solid #dae2dc;padding:17px 0;font-size:16px;display:flex;align-items:flex-start;gap:15px;line-height:1.7;color:#526258}
+#altitude-concept .ar-delivery li svg{margin-top:4px;color:#347841}
+#altitude-concept .ar-service-contact{padding:58px 6%;background:#122017;color:#fff;display:flex;justify-content:space-between;align-items:center;gap:40px}
+#altitude-concept .ar-service-contact h2{font-size:clamp(30px,4vw,43px);max-width:740px}
+#altitude-concept .ar-service-contact p{font-size:16px;color:#c4cec7;margin-top:16px;max-width:610px}
+#altitude-concept .ar-service-contact .ar-button{flex-shrink:0}
+#altitude-concept .ar-company-story{padding:90px 6%;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:white}
+#altitude-concept .ar-company-story .ar-category-media{height:530px}
+#altitude-concept .ar-company-story p{font-size:17px;color:#58685e;line-height:1.85;margin-top:25px}
+#altitude-concept .ar-company-story.ar-company-reverse{background:#f0f4f1}
+#altitude-concept .ar-company-story.ar-company-reverse .ar-category-media{order:2}
+#altitude-concept .ar-company-statement{padding:75px 9%;background:#101d15;color:white;text-align:center}
+#altitude-concept .ar-company-statement h2{font-size:clamp(34px,5vw,61px);line-height:1.18;max-width:900px;margin:auto}
+#altitude-concept .ar-company-statement .ar-kicker{color:var(--ar-green)}
+#altitude-concept .ar-company-principles{padding:78px 6%;background:white}
+#altitude-concept .ar-company-principles .ar-coverage{padding:38px 0 0}
+#altitude-concept .ar-resource-heading{padding:54px 6% 45px;background:#fff}
+#altitude-concept .ar-resource-heading h1{font-size:clamp(38px,5vw,58px);max-width:780px}
+#altitude-concept .ar-safety-links{padding:0 6% 65px;display:flex;gap:30px;flex-wrap:wrap;background:white}
+#altitude-concept .ar-legal-caption{font-size:13px!important;line-height:1.7!important;margin-top:22px!important}
+@media(max-width:1050px){#altitude-concept .ar-selling-point{padding:26px 19px}#altitude-concept .ar-selling-point strong{font-size:39px}#altitude-concept .ar-category-media{height:660px}#altitude-concept .ar-category-method{gap:5%}#altitude-concept .ar-company-story .ar-category-media{height:570px}}
+@media(max-width:850px){#altitude-concept .ar-selling-points{grid-template-columns:repeat(2,minmax(0,1fr))}#altitude-concept .ar-selling-point strong{font-size:52px}#altitude-concept .ar-selling-point{min-height:206px}#altitude-concept .ar-permit-stage{padding:28px}#altitude-concept .ar-permit{padding:30px 24px;min-height:495px}#altitude-concept .ar-category-intro{gap:6%;padding:64px 6% 42px}#altitude-concept .ar-category-intro>p{padding-top:0}#altitude-concept .ar-category-method{grid-template-columns:1fr;gap:38px}#altitude-concept .ar-category-media{height:470px}#altitude-concept .ar-coverage{gap:18px}#altitude-concept .ar-coverage h3{font-size:22px}#altitude-concept .ar-company-story{gap:5%}#altitude-concept .ar-company-story .ar-category-media{height:600px}}
+@media(max-width:620px){#altitude-concept .ar-hero{min-height:740px;padding:300px 6% 92px}#altitude-concept[data-experience="website"] .ar-hero{min-height:max(520px,calc(100svh - var(--ar-nav-height)));padding:170px 6% 80px}#altitude-concept .ar-hero h1{font-size:clamp(42px,10.6vw,63px)}#altitude-concept .ar-hero-sub{max-width:320px;line-height:1.75;font-size:18px}#altitude-concept .ar-selling-points{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}#altitude-concept .ar-selling-point{display:block;padding:24px 17px;min-height:206px}#altitude-concept .ar-selling-point strong{font-size:clamp(28px,7.9vw,46px);margin-bottom:20px;line-height:1.2}#altitude-concept .ar-selling-point:first-child strong{font-size:46px;line-height:1.04}#altitude-concept .ar-selling-point p{font-size:15px}#altitude-concept .ar-selling-point small{margin-top:10px;font-size:12px}#altitude-concept .ar-permit-stage{padding:24px}#altitude-concept .ar-permit{aspect-ratio:210/297;min-height:440px;padding:30px 25px}#altitude-concept .ar-permit h3{font-size:25px;margin-top:35px}#altitude-concept .ar-category-hero{min-height:580px;padding:190px 6% 54px}#altitude-concept .ar-category-copy h1{font-size:clamp(38px,10vw,55px)}#altitude-concept .ar-category-copy p{font-size:17px;line-height:1.75}#altitude-concept .ar-category-credit{top:16px;right:16px;left:16px;text-align:right;background:none;font-size:12px;text-shadow:0 1px 5px #000}#altitude-concept .ar-category-intro{grid-template-columns:1fr;gap:26px;padding:54px 6% 35px}#altitude-concept .ar-category-intro>p{font-size:16px}#altitude-concept .ar-coverage{grid-template-columns:1fr;padding-bottom:50px;gap:8px}#altitude-concept .ar-coverage article{padding:25px 0 15px}#altitude-concept .ar-coverage .ar-coverage-number{margin-bottom:15px}#altitude-concept .ar-coverage h3{font-size:26px}#altitude-concept .ar-category-method{padding:50px 6%;gap:33px}#altitude-concept .ar-category-media{height:350px}#altitude-concept .ar-category-method h2{font-size:34px}#altitude-concept .ar-operation{grid-template-columns:24px 1fr;gap:12px}#altitude-concept .ar-delivery{padding:54px 6%;grid-template-columns:1fr;gap:26px}#altitude-concept .ar-service-contact{padding:48px 6%;display:block}#altitude-concept .ar-service-contact .ar-button{margin-top:28px}#altitude-concept .ar-company-story{padding:55px 6%;grid-template-columns:1fr;gap:34px}#altitude-concept .ar-company-story .ar-category-media{height:365px}#altitude-concept .ar-company-story.ar-company-reverse .ar-category-media{order:0}#altitude-concept .ar-company-story p{font-size:16px}#altitude-concept .ar-company-statement{padding:58px 6%}#altitude-concept .ar-company-principles{padding:55px 6%}#altitude-concept .ar-resource-heading{padding:44px 6% 30px}#altitude-concept .ar-safety-links{padding:0 6% 50px;gap:22px}}
+@media(prefers-reduced-motion:reduce){#altitude-concept *{scroll-behavior:auto!important;transition:none!important}}
+/* Service pages: full-width media with readable introductory copy. */
+#altitude-concept .ar-short-service{background:#fff}
+#altitude-concept .ar-service-media{width:100%;max-width:none;margin:0}
+#altitude-concept .ar-service-hero{min-height:max(520px,calc(100svh - var(--ar-nav-height)));padding:170px 6% 110px;display:flex;align-items:flex-end;overflow:hidden;background:#101713;border-radius:0}
+#altitude-concept .ar-service-hero:after{background:linear-gradient(90deg,rgba(7,17,12,.66),rgba(7,17,12,.12) 85%),linear-gradient(0deg,rgba(7,17,12,.91),rgba(7,17,12,.32) 65%,rgba(7,17,12,.15));pointer-events:none}
+#altitude-concept .ar-service-hero>img,#altitude-concept .ar-service-hero>video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+#altitude-concept .ar-service-hero .ar-category-copy{position:relative;max-width:1000px;text-shadow:0 2px 16px #0005}
+#altitude-concept .ar-service-hero .ar-category-copy .ar-kicker{margin-bottom:18px;color:#fff}
+#altitude-concept .ar-service-hero .ar-category-copy h1{font-size:clamp(40px,5.5vw,76px);line-height:1.1;max-width:1000px;color:#fff;text-wrap:balance}
+#altitude-concept .ar-service-hero .ar-category-copy p{font-size:clamp(17px,1.5vw,21px);line-height:1.65;max-width:760px;margin-top:24px;color:#fff}
+#altitude-concept .ar-service-play{position:absolute;right:6%;bottom:28px;display:flex;align-items:center;gap:9px;padding:12px 17px;border:1px solid #ffffff80;border-radius:30px;background:#07110c80;color:#fff;font:500 14px Inter,Arial,sans-serif;cursor:pointer;min-height:44px}
+#altitude-concept .ar-service-play:disabled{cursor:default}
+#altitude-concept .ar-service-media-credit{position:absolute;top:22px;right:6%;left:auto;max-width:88%;margin:0;padding:6px 10px;border-radius:4px;background:#07110cb3;font-size:12px;color:#fff;line-height:1.5}
+#altitude-concept .ar-facilities{padding:48px 6% 44px;background:#fff}
+#altitude-concept .ar-short-service .ar-service-section-title{font:400 25px/1.3 Poppins,Inter,Arial,sans-serif;letter-spacing:-.045em;margin:0 0 24px;color:#17231c}
+#altitude-concept .ar-facility-strip{display:grid;grid-template-columns:repeat(var(--facility-count,3),minmax(0,1fr));gap:20px;align-items:stretch}
+#altitude-concept .ar-facility-strip figure{margin:0;min-width:0;display:flex;flex-direction:column;border-bottom:1px solid #dce1df}
+#altitude-concept .ar-facility-strip img{width:100%;height:160px;object-fit:cover;border-radius:8px;flex-shrink:0}
+#altitude-concept .ar-facility-strip figcaption{font-size:16px;line-height:1.4;color:#17231c;padding:13px 0 17px;flex:1}
+#altitude-concept .ar-facility-strip img[data-image="hdb"]{object-position:center 60%}
+#altitude-concept .ar-service-explanation{padding:0 6% 58px;background:#fff}
+#altitude-concept .ar-service-challenge{padding:0 0 44px}
+#altitude-concept .ar-challenge-content{display:grid;grid-template-columns:1fr 1fr;gap:7%;align-items:start}
+#altitude-concept .ar-challenge-content h3{font-size:clamp(25px,2.6vw,34px);line-height:1.25;max-width:540px;color:#96574e}
+#altitude-concept .ar-challenge-content p{font-size:16px;line-height:1.7;color:#526258;max-width:590px}
+#altitude-concept .ar-service-response{padding-top:34px;border-top:1px solid #dce1df}
+#altitude-concept .ar-response-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:5%;align-items:stretch}
+#altitude-concept .ar-response-visual{position:relative;margin:0;min-width:0;min-height:0;border-radius:6px;overflow:hidden;background:#17231c}
+#altitude-concept .ar-response-visual>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#altitude-concept .ar-response-visual>img[data-image="drone"]{object-position:75% center}
+#altitude-concept .ar-response-visual figcaption{position:absolute;left:14px;right:14px;bottom:14px;width:fit-content;max-width:calc(100% - 28px);font-size:12px;line-height:1.6;color:#fff;background:#102016d9;padding:5px 9px;border-radius:3px}
+#altitude-concept .ar-response-heading{font-size:clamp(25px,2.6vw,34px);line-height:1.25;max-width:560px}
+#altitude-concept .ar-response-benefits{list-style:none;padding:0;margin:22px 0 0}
+#altitude-concept .ar-response-benefits li{display:grid;grid-template-columns:24px 1fr;gap:12px;border-top:1px solid #dce1df;padding:15px 0}
+#altitude-concept .ar-response-benefits li:last-child{padding-bottom:0}
+#altitude-concept .lucide-check{color:var(--ar-green);stroke-width:2.75}
+#altitude-concept .ar-response-benefits svg{color:var(--ar-green);width:24px;height:24px;margin-top:1px;padding:0;background:none;border-radius:0;stroke-width:2.75}
+#altitude-concept .ar-response-benefits h4{font:500 18px/1.4 Inter,Arial,sans-serif;letter-spacing:-.015em;margin:0 0 5px}
+#altitude-concept .ar-response-benefits p{font-size:16px;line-height:1.6;color:#526258}
+#altitude-concept .ar-service-faq{padding:0 6% 50px;display:grid;grid-template-columns:1fr 1.6fr;gap:40px;background:#fff}
+#altitude-concept .ar-service-faq h2{font-size:27px;line-height:1.3;padding-top:17px}
+#altitude-concept .ar-service-faq details{border-top:1px solid #dce1df}
+#altitude-concept .ar-service-faq details:last-child{border-bottom:1px solid #dce1df}
+#altitude-concept .ar-service-faq summary{font-size:16px;font-weight:500;display:flex;align-items:center;justify-content:space-between;gap:22px;list-style:none;padding:17px 0;cursor:pointer;min-height:54px}
+#altitude-concept .ar-service-faq summary::-webkit-details-marker{display:none}
+#altitude-concept .ar-service-faq details[open] summary svg{transform:rotate(45deg)}
+#altitude-concept .ar-service-faq details>p{font-size:16px;color:#526258;line-height:1.75;padding:0 25px 20px 0}
+#altitude-concept .ar-short-service .ar-service-contact{padding:44px 6%}
+#altitude-concept .ar-short-service .ar-service-contact h2{font-size:clamp(28px,3.4vw,39px)}
+@media(max-width:720px){
+  #altitude-concept .ar-service-hero{padding:130px 6% 100px}
+  #altitude-concept .ar-service-hero .ar-category-copy h1{font-size:clamp(36px,8.5vw,54px)}
+  #altitude-concept .ar-service-hero .ar-category-copy p{font-size:17px;line-height:1.65;margin-top:20px}
+  #altitude-concept .ar-service-hero .ar-category-copy .ar-kicker{font-size:12px;margin-bottom:14px}
+  #altitude-concept .ar-service-play{bottom:24px}
+  #altitude-concept .ar-service-media-credit{top:16px;font-size:11px}
+  #altitude-concept .ar-facilities{padding-top:36px}
+  #altitude-concept .ar-facility-strip{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}
+  #altitude-concept .ar-facility-strip img{height:140px}
+  #altitude-concept .ar-challenge-content{grid-template-columns:1fr;gap:18px}
+  #altitude-concept .ar-service-challenge{padding-bottom:30px}
+  #altitude-concept .ar-response-layout{grid-template-columns:1fr;gap:26px}
+  #altitude-concept .ar-response-visual{min-height:0;aspect-ratio:4 / 3}
+  #altitude-concept .ar-service-explanation{padding-bottom:46px}
+  #altitude-concept .ar-service-faq{grid-template-columns:1fr;gap:20px}
+  #altitude-concept .ar-service-faq h2{padding:0}
+}
+
+/* Align service navigation from the top, regardless of description length. */
+#altitude-concept .ar-dropdown :is(button,a:where([data-route]),a:where([data-scroll])){display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;line-height:1.4}
+#altitude-concept .ar-dropdown small{line-height:1.55}
+/* Compact home sections without fixed heights or clipped content. */
+#altitude-concept .ar-services{padding:44px 6%}
+#altitude-concept .ar-services .ar-sectionhead{margin-bottom:28px}
+#altitude-concept .ar-services .ar-kicker{margin-bottom:10px}
+#altitude-concept .ar-services .ar-heading,#altitude-concept .ar-comparison .ar-heading{font-size:clamp(30px,3.2vw,42px);line-height:1.15}
+#altitude-concept .ar-service{display:flex;flex-direction:column;align-items:stretch}
+#altitude-concept .ar-servicebody{display:flex;flex-direction:column;flex:1;padding:20px}
+#altitude-concept .ar-service h3{font-size:clamp(24px,2.2vw,29px);line-height:1.2;margin-bottom:12px}
+#altitude-concept .ar-service p{padding:0;font-size:16px;line-height:1.5;min-height:0;flex:1}
+#altitude-concept .ar-service .ar-cardlink{padding-top:20px;gap:10px;line-height:1.4;align-items:center}
+#altitude-concept .ar-service .ar-kicker{font-size:12px;line-height:1.5;min-height:36px}
+#altitude-concept .ar-service-image{height:190px;flex-shrink:0}
+#altitude-concept .ar-comparison{padding:32px 3.5%}
+#altitude-concept .ar-comparison-head{margin-bottom:20px}
+#altitude-concept .ar-comparison-head .ar-kicker{margin-bottom:10px}
+#altitude-concept .ar-comparison-head p{margin-top:12px;line-height:1.45;max-width:none}
+#altitude-concept .ar-compare-option{display:grid;grid-template-columns:144px minmax(0,1fr);gap:18px;align-items:center}
+#altitude-concept .ar-compare-new th,#altitude-concept .ar-compare-new td{padding:11px 20px;vertical-align:middle}
+#altitude-concept .ar-compare-new thead th{padding:16px 20px 18px}
+#altitude-concept .ar-compare-new .ar-topic{width:18%}
+#altitude-concept .ar-compare-new .ar-option{width:41%}
+#altitude-concept .ar-compare-new h3{font-size:22px;line-height:1.2;margin-bottom:5px}
+#altitude-concept .ar-compare-new .ar-col-description{font-size:13px;line-height:1.4;min-height:0;margin-bottom:0}
+#altitude-concept .ar-compare-new .ar-comparison-image{width:144px;height:120px;border-radius:5px}
+#altitude-concept .ar-compare-new .ar-image-label{font-size:12px;margin-top:5px;line-height:1.4}
+#altitude-concept .ar-compare-new tbody th{padding-left:0;font-size:16px;line-height:1.4}
+#altitude-concept .ar-check-copy{font-size:16px;line-height:1.4;gap:10px}
+#altitude-concept .ar-check-copy .ar-tick{color:var(--ar-green);width:22px;height:22px;stroke-width:2.75;flex-shrink:0;margin-top:1px}
+#altitude-concept .ar-compare-new thead th:last-child,#altitude-concept .ar-compare-new tbody td:last-child{background:#1b3321;border-left:1px solid #46783c;border-right:1px solid #46783c;border-bottom-color:#354e38}
+#altitude-concept .ar-compare-new thead th:last-child{border-top:1px solid #46783c}
+#altitude-concept .ar-compare-new thead th:last-child h3{color:var(--ar-green);font-weight:500}
+#altitude-concept .ar-compare-new tbody td:last-child .ar-check-copy{font-weight:500;color:#f6faf5}
+#altitude-concept .ar-compare-new tbody tr:last-child td:last-child{border-bottom:1px solid #46783c}
+#altitude-concept .ar-comparefoot{margin-top:16px;gap:24px}
+#altitude-concept .ar-comparefoot p{max-width:850px;line-height:1.5}
+#altitude-concept .ar-comparefoot .ar-textlink{flex-shrink:0;white-space:nowrap}
+@media(min-width:1000px){
+  #altitude-concept .ar-services{padding-top:clamp(28px,4svh,48px);padding-bottom:clamp(28px,4svh,48px)}
+  #altitude-concept .ar-servicegrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:stretch}
+  #altitude-concept .ar-service-image{height:clamp(140px,21svh,210px)}
+  #altitude-concept .ar-comparison{padding-top:clamp(30px,4.5svh,46px);padding-bottom:clamp(30px,4.5svh,46px)}
+}
+@media(min-width:621px) and (max-width:999px){
+  #altitude-concept .ar-servicegrid{gap:20px}
+  #altitude-concept .ar-service-image{height:150px}
+  #altitude-concept .ar-servicebody{padding:18px}
+  #altitude-concept .ar-compare-option{grid-template-columns:96px minmax(0,1fr);gap:12px}
+  #altitude-concept .ar-compare-new .ar-comparison-image{width:96px;height:104px}
+  #altitude-concept .ar-compare-new h3{font-size:20px}
+}
+@media(min-width:621px) and (max-width:760px){
+  #altitude-concept .ar-compare-option{grid-template-columns:1fr;align-content:start}
+  #altitude-concept .ar-compare-new .ar-comparison-image{width:100%;height:120px}
+}
+@media(max-width:620px){
+  #altitude-concept .ar-services,#altitude-concept .ar-comparison{padding:40px 6%}
+  #altitude-concept .ar-servicegrid{grid-template-columns:1fr}
+  #altitude-concept .ar-service-image{height:190px}
+  #altitude-concept .ar-service .ar-kicker{min-height:0}
+  #altitude-concept .ar-compare-option{grid-template-columns:1fr;gap:12px;height:100%;align-content:start}
+  #altitude-concept .ar-compare-new thead th{padding:14px 10px}
+  #altitude-concept .ar-compare-new .ar-comparison-image{width:100%;height:120px}
+  #altitude-concept .ar-compare-new h3{font-size:20px;min-height:48px}
+  #altitude-concept .ar-compare-new .ar-col-description{min-height:57px}
+  #altitude-concept .ar-compare-new td{padding:12px 10px 18px}
+  #altitude-concept .ar-compare-new tbody th{padding:20px 0 8px}
+  #altitude-concept .ar-check-copy{font-size:16px;line-height:1.5}
+  #altitude-concept .ar-comparefoot{display:block}
+}
+/* A different approach: reduce the section's footprint while retaining legible copy. */
+#altitude-concept #ar-approach{padding:50px 6%}
+#altitude-concept #ar-approach .ar-approach-media{height:355px;border-radius:8px}
+#altitude-concept #ar-approach .ar-heading{font-size:clamp(30px,2.7vw,38px);line-height:1.17;margin-bottom:18px}
+#altitude-concept #ar-approach .ar-kicker{margin-bottom:12px}
+#altitude-concept #ar-approach .ar-intro p{font-size:16px;line-height:1.65}
+#altitude-concept #ar-approach .ar-intro .ar-textlink{margin-top:22px}
+#altitude-concept #ar-approach .ar-selling-points{margin-top:30px;gap:14px}
+#altitude-concept #ar-approach .ar-selling-point{min-height:158px;padding:18px;border-radius:8px}
+#altitude-concept #ar-approach .ar-selling-point strong{font-size:clamp(30px,3vw,42px);min-height:49px;line-height:1.1;margin-bottom:10px;display:flex;align-items:center}
+#altitude-concept #ar-approach .ar-selling-point:first-child strong{font-size:44px}
+#altitude-concept #ar-approach .ar-selling-point p{font-size:16px;line-height:1.5}
+#altitude-concept #ar-approach .ar-selling-point small{font-size:12px;line-height:1.45;margin-top:6px}
+@media(max-width:850px){
+  #altitude-concept #ar-approach .ar-split{grid-template-columns:1fr;gap:28px}
+  #altitude-concept #ar-approach .ar-approach-media{height:320px}
+  #altitude-concept #ar-approach .ar-selling-point strong{font-size:38px}
+}
+@media(max-width:620px){
+  #altitude-concept #ar-approach{padding:38px 6%}
+  #altitude-concept #ar-approach .ar-approach-media{height:250px}
+  #altitude-concept #ar-approach .ar-selling-points{gap:12px}
+  #altitude-concept #ar-approach .ar-selling-point{display:block;padding:16px 14px;min-height:158px}
+  #altitude-concept #ar-approach .ar-selling-point strong{font-size:clamp(26px,7vw,36px);min-height:40px}
+  #altitude-concept #ar-approach .ar-selling-point:first-child strong{font-size:36px}
+}
+/* Compact client proof, with a centred heading and an unframed logo strip. */
+#altitude-concept #ar-trusted{padding:34px 3.5% 30px;background:#fafbfa}
+#altitude-concept #ar-trusted .ar-trusted-title{font-size:25px;line-height:1.3;font-weight:500;text-align:center;letter-spacing:-.03em}
+#altitude-concept #ar-trusted .ar-client-logos{grid-template-columns:repeat(6,minmax(0,1fr));gap:22px;margin:24px 0 30px;align-items:center}
+#altitude-concept #ar-trusted .ar-client-logo{min-height:64px;padding:8px;background:transparent;border:0;border-radius:0;font-size:14px;color:#778179}
+#altitude-concept #ar-trusted .ar-client-logo img{width:100%;height:52px;object-fit:contain}
+#altitude-concept #ar-trusted .ar-testimonials{gap:16px;align-items:stretch}
+#altitude-concept #ar-trusted .ar-testimonial{min-height:210px;padding:24px 26px;background:#f3f5f3;border:1px solid #d8dfd9;border-radius:3px}
+#altitude-concept #ar-trusted .ar-testimonial-logo{font-size:13px;font-weight:500;line-height:1.4;text-transform:uppercase;letter-spacing:.1em;color:#778179;min-height:30px;display:flex;align-items:center;margin-bottom:15px}
+#altitude-concept #ar-trusted .ar-testimonial-logo img{height:38px;max-width:160px;width:auto;object-fit:contain;object-position:left center}
+#altitude-concept #ar-trusted .ar-testimonial p{font-size:18px;line-height:1.5;margin:0 0 22px;color:#637168}
+#altitude-concept #ar-trusted .ar-testimonial small{font-size:14px}
+#altitude-concept #ar-trusted .ar-proof-note{margin-top:16px;font-size:12px;text-align:center;line-height:1.5}
+@media(max-width:850px){
+  #altitude-concept #ar-trusted .ar-client-logos{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 20px;margin:20px 0 24px}
+  #altitude-concept #ar-trusted .ar-testimonial{padding:20px;min-height:215px}
+}
+@media(max-width:620px){
+  #altitude-concept #ar-trusted{padding:30px 5%}
+  #altitude-concept #ar-trusted .ar-client-logos{gap:8px 14px}
+  #altitude-concept #ar-trusted .ar-client-logo{min-height:52px;font-size:12px}
+  #altitude-concept #ar-trusted .ar-testimonials{grid-template-columns:1fr;gap:14px}
+  #altitude-concept #ar-trusted .ar-testimonial{min-height:185px}
+}
+
+
+#altitude-concept a[data-route],#altitude-concept a[data-scroll]{text-decoration:none}
+#altitude-concept a.ar-navlink[aria-current="page"]{text-decoration:underline;text-decoration-color:#2c7321;text-underline-offset:8px}
+
+
+/* Service-page content additions: uses the existing Altitude spacing, type and palette. */
+#altitude-concept .ar-service-proof{padding:34px 0 0;border-top:1px solid #dce1df;margin-top:34px}
+#altitude-concept .ar-service-table-wrap{overflow-x:auto;border:1px solid #dce1df;border-radius:7px}
+#altitude-concept .ar-service-table{width:100%;border-collapse:collapse;min-width:720px;background:#fff}
+#altitude-concept .ar-service-table th,#altitude-concept .ar-service-table td{padding:16px 18px;text-align:left;vertical-align:top;border-bottom:1px solid #e6eae6;font-size:14px;line-height:1.55}
+#altitude-concept .ar-service-table thead th{background:#f3f6f2;font-weight:500;color:#17231c}
+#altitude-concept .ar-service-table tbody th{width:20%;font-weight:500;color:#17231c}
+#altitude-concept .ar-service-table tbody td{width:40%;color:#526258}
+#altitude-concept .ar-service-table tr:last-child :is(th,td){border-bottom:0}
+#altitude-concept .ar-service-note{margin-top:13px;font-size:13px;line-height:1.65;color:#68756d}
+#altitude-concept .ar-inline-source{margin-top:12px!important;font-size:14px!important}
+#altitude-concept .ar-inline-source a{display:inline-flex;align-items:center;gap:6px;font-weight:500;text-decoration:underline;text-underline-offset:3px}
+#altitude-concept .ar-inline-source svg{width:14px;height:14px}
+#altitude-concept .ar-scope-limits{padding:50px 6%;display:grid;grid-template-columns:1fr 1fr;gap:6%;background:#f6f7f3}
+#altitude-concept .ar-scope-limits>div{min-width:0}
+#altitude-concept .ar-scope-limits .ar-kicker,#altitude-concept .ar-service-process .ar-kicker,#altitude-concept .ar-service-deliverable .ar-kicker,#altitude-concept .ar-solar-calculator .ar-kicker,#altitude-concept .ar-team-section .ar-kicker{margin-bottom:11px}
+#altitude-concept .ar-scope-limits ul,#altitude-concept .ar-service-deliverable ul{margin:0;padding-left:19px;color:#526258}
+#altitude-concept .ar-scope-limits li,#altitude-concept .ar-service-deliverable li{padding:7px 0;line-height:1.65}
+#altitude-concept .ar-limit-panel{padding-left:6%;border-left:1px solid #d6ddd6}
+#altitude-concept .ar-service-process{padding:50px 6% 38px;background:#fff}
+#altitude-concept .ar-process-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:8px}
+#altitude-concept .ar-process-grid article{border-top:1px solid #cfd8d0;padding:15px 8px 0 0;min-width:0}
+#altitude-concept .ar-process-grid span{font-size:11px;letter-spacing:.13em;color:#66736a}
+#altitude-concept .ar-process-grid p{margin-top:8px;font-size:14px;line-height:1.55;color:#29352d}
+#altitude-concept .ar-service-deliverable{padding:0 6% 50px;display:grid;grid-template-columns:1fr 1fr;gap:7%;align-items:start;background:#fff}
+#altitude-concept .ar-service-deliverable>div:last-child{padding-top:3px}
+#altitude-concept .ar-solar-calculator{padding:50px 6%;background:#122017;color:#fff}
+#altitude-concept .ar-calc-head{display:grid;grid-template-columns:1fr 1fr;gap:7%;align-items:end;margin-bottom:26px}
+#altitude-concept .ar-calc-head .ar-service-section-title{color:#fff;margin-bottom:0}
+#altitude-concept .ar-calc-head p{color:#c7d0ca;max-width:500px}
+#altitude-concept .ar-calc-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+#altitude-concept .ar-calc-grid label{display:flex;flex-direction:column;gap:7px;font-size:13px;color:#d6dfd8}
+#altitude-concept .ar-calc-grid label span{font-size:11px;color:#9eb0a4}
+#altitude-concept .ar-calc-grid input{width:100%;min-height:44px;border:1px solid #4a5e50;border-radius:4px;background:#fff;color:#111715;padding:9px 10px}
+#altitude-concept .ar-calc-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+#altitude-concept .ar-calc-results article{border:1px solid #35493b;border-radius:6px;padding:18px;background:#17281d}
+#altitude-concept .ar-calc-results span{display:block;font-size:12px;color:#b7c5bc;margin-bottom:7px}
+#altitude-concept .ar-calc-results strong{display:block;font:400 clamp(26px,3vw,40px)/1.15 Poppins,Inter,Arial,sans-serif;color:var(--ar-green);letter-spacing:-.04em}
+#altitude-concept .ar-calc-results small{display:block;color:#9fb0a5;margin-top:5px}
+#altitude-concept .ar-solar-calculator .ar-service-note{color:#aebdb3}
+#altitude-concept .ar-team-section{padding:78px 6%;background:#f6f7f3}
+#altitude-concept .ar-team-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:34px}
+#altitude-concept .ar-team-card{display:grid;grid-template-columns:minmax(180px,.75fr) 1.25fr;gap:28px;align-items:stretch;background:#fff;border:1px solid #dce1d9;border-radius:8px;overflow:hidden}
+#altitude-concept .ar-team-photo{min-height:280px;background:#dfe5df;display:flex;align-items:center;justify-content:center;color:#6b776f;font-size:11px;letter-spacing:.16em;font-weight:500}
+#altitude-concept .ar-team-photo img{width:100%;height:100%;object-fit:cover}
+#altitude-concept .ar-team-card>div:last-child{padding:30px 30px 30px 0;align-self:center}
+#altitude-concept .ar-team-card h3{font-size:27px}
+#altitude-concept .ar-team-role{margin-top:7px!important;font-size:12px!important;letter-spacing:.12em;text-transform:uppercase;color:#53625a!important}
+#altitude-concept .ar-team-card p:last-child{margin-top:16px!important;font-size:15px!important;line-height:1.7!important;color:#58685e!important}
+@media(max-width:900px){
+#altitude-concept .ar-process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#altitude-concept .ar-calc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+#altitude-concept .ar-team-card{grid-template-columns:1fr}
+#altitude-concept .ar-team-photo{min-height:300px}
+#altitude-concept .ar-team-card>div:last-child{padding:0 26px 28px}
+}
+@media(max-width:620px){
+#altitude-concept .ar-scope-limits,#altitude-concept .ar-service-deliverable,#altitude-concept .ar-calc-head,#altitude-concept .ar-team-grid{grid-template-columns:1fr}
+#altitude-concept .ar-limit-panel{padding:28px 0 0;border-left:0;border-top:1px solid #d6ddd6}
+#altitude-concept .ar-process-grid,#altitude-concept .ar-calc-grid,#altitude-concept .ar-calc-results{grid-template-columns:1fr}
+#altitude-concept .ar-team-photo{min-height:340px}
+}
+
+/* 2026-09 service-page readability pass: stronger contrast and section segmentation. */
+#altitude-concept .ar-short-service{--ar-service-soft:#f1f5ee;--ar-service-soft-2:#f7f8f5;--ar-service-border:#cfd9cf;--ar-service-deep:#17231c;--ar-service-warm:#faf6f2}
+#altitude-concept .ar-short-service .ar-service-section-title{color:#132019}
+
+/* Incumbent + Altitude approach become two clearly separated content blocks. */
+#altitude-concept .ar-short-service .ar-service-explanation{padding:38px 6% 54px;background:#fff}
+#altitude-concept .ar-short-service .ar-service-challenge{padding:30px 32px;margin-bottom:28px;border:1px solid #e8ddd7;border-radius:9px;background:var(--ar-service-warm)}
+#altitude-concept .ar-short-service .ar-service-challenge .ar-service-section-title{margin-bottom:20px}
+#altitude-concept .ar-short-service .ar-challenge-content h3{color:#7f443d}
+#altitude-concept .ar-short-service .ar-challenge-content p{color:#435249}
+#altitude-concept .ar-short-service .ar-service-response{padding:32px;border:1px solid var(--ar-service-border);border-radius:9px;background:var(--ar-service-soft)}
+#altitude-concept .ar-short-service .ar-response-copy{padding:4px 2px}
+#altitude-concept .ar-short-service .ar-response-benefits li{border-color:#cbd6cb}
+#altitude-concept .ar-short-service .ar-response-benefits p{color:#435249}
+
+/* Comparison table reads as its own decision block. */
+#altitude-concept .ar-short-service .ar-service-proof{margin:32px 0 0;padding:30px 32px;border:1px solid var(--ar-service-border);border-radius:9px;background:var(--ar-service-soft-2)}
+#altitude-concept .ar-short-service .ar-service-table-wrap{border-color:#c7d2c7;box-shadow:0 8px 26px #17231c0a}
+#altitude-concept .ar-short-service .ar-service-table thead th{background:#e8eee5;color:#122018}
+#altitude-concept .ar-short-service .ar-service-table thead th:last-child{background:#dff3c3}
+#altitude-concept .ar-short-service .ar-service-table tbody th{color:#122018;background:#fbfcfa}
+#altitude-concept .ar-short-service .ar-service-table tbody td{color:#35463b}
+#altitude-concept .ar-short-service .ar-service-table tbody td:last-child{background:#f4f8f1}
+#altitude-concept .ar-short-service .ar-service-note{color:#526258}
+
+/* Property / facility strip gets a separate visual band and card treatment. */
+#altitude-concept .ar-short-service .ar-facilities{padding:54px 6%;background:#e9f0e5;border-top:1px solid #d4dfd3;border-bottom:1px solid #d4dfd3}
+#altitude-concept .ar-short-service .ar-facility-strip{gap:18px}
+#altitude-concept .ar-short-service .ar-facility-strip figure{background:#fff;border:1px solid #d2dcd1;border-radius:8px;overflow:hidden;box-shadow:0 5px 18px #17231c0a}
+#altitude-concept .ar-short-service .ar-facility-strip img{border-radius:0}
+#altitude-concept .ar-short-service .ar-facility-strip figcaption{padding:14px 15px 16px;font-weight:500}
+
+/* Scope and limits are deliberately different so the constraint block is obvious. */
+#altitude-concept .ar-short-service .ar-scope-limits{padding:54px 6%;gap:22px;background:#fff}
+#altitude-concept .ar-short-service .ar-scope-limits>div{padding:30px 32px;border:1px solid var(--ar-service-border);border-radius:9px;background:var(--ar-service-soft)}
+#altitude-concept .ar-short-service .ar-scope-limits .ar-limit-panel{padding:30px 32px;border:1px solid #dfd6c5;background:#f8f4e9}
+#altitude-concept .ar-short-service .ar-scope-limits ul{color:#35463b}
+#altitude-concept .ar-short-service .ar-limit-panel .ar-kicker{color:#7d6335}
+
+/* Process becomes a band of discrete numbered steps. */
+#altitude-concept .ar-short-service .ar-service-process{padding:54px 6%;background:#edf2e9;border-top:1px solid #d5dfd4;border-bottom:1px solid #d5dfd4}
+#altitude-concept .ar-short-service .ar-process-grid{gap:12px;margin-top:12px}
+#altitude-concept .ar-short-service .ar-process-grid article{padding:18px 16px 20px;border:1px solid #cfdbce;border-top:3px solid #7ea65b;border-radius:7px;background:#fff;box-shadow:0 4px 14px #17231c08}
+#altitude-concept .ar-short-service .ar-process-grid span{color:#4c6e39;font-weight:500}
+#altitude-concept .ar-short-service .ar-process-grid p{color:#223128}
+
+/* Data deliverable is the visual payoff: dark, high-contrast and distinct. */
+#altitude-concept .ar-short-service .ar-service-deliverable{padding:50px 6%;background:var(--ar-service-deep);color:#fff;border-bottom:1px solid #2e4135}
+#altitude-concept .ar-short-service .ar-service-deliverable .ar-kicker{color:var(--ar-green)}
+#altitude-concept .ar-short-service .ar-service-deliverable .ar-service-section-title{color:#fff}
+#altitude-concept .ar-short-service .ar-service-deliverable ul{color:#e3eae5}
+#altitude-concept .ar-short-service .ar-service-deliverable li::marker{color:var(--ar-green)}
+#altitude-concept .ar-short-service .ar-service-deliverable .ar-service-note{color:#b7c5bc}
+
+/* FAQ returns to a soft surface with individually separated questions. */
+#altitude-concept .ar-short-service .ar-service-faq{padding:52px 6%;background:#f5f7f3}
+#altitude-concept .ar-short-service .ar-service-faq h2{color:#132019}
+#altitude-concept .ar-short-service .ar-service-faq details{margin-bottom:8px;padding:0 18px;border:1px solid #d5ddd4!important;border-radius:6px;background:#fff}
+#altitude-concept .ar-short-service .ar-service-faq summary{color:#17231c}
+#altitude-concept .ar-short-service .ar-service-faq details>p{color:#435249}
+
+/* Keep solar's ROI block visually stronger than the surrounding light sections. */
+#altitude-concept .ar-short-service .ar-solar-calculator{border-top:1px solid #31463a;border-bottom:1px solid #31463a;background:#101d15}
+#altitude-concept .ar-short-service .ar-calc-grid input{border-color:#617366}
+#altitude-concept .ar-short-service .ar-calc-results article{background:#1b2e22;border-color:#405747}
+
+@media(max-width:720px){
+  #altitude-concept .ar-short-service .ar-service-explanation{padding:28px 6% 42px}
+  #altitude-concept .ar-short-service .ar-service-challenge,
+  #altitude-concept .ar-short-service .ar-service-response,
+  #altitude-concept .ar-short-service .ar-service-proof{padding:24px 20px}
+  #altitude-concept .ar-short-service .ar-scope-limits>div,
+  #altitude-concept .ar-short-service .ar-scope-limits .ar-limit-panel{padding:25px 22px}
+  #altitude-concept .ar-short-service .ar-process-grid article{padding:17px 16px}
+}

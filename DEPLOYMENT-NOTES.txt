@@ -1,0 +1,7 @@
+Upload these files into your existing site root, beside index.html, replacing matching files. Filenames have been restored to their deployment names (without upload suffixes). Keep the existing assets folder and hosting configuration: neither was attached. This is an update package, not a complete standalone site.
+
+All 13 HTML indexing blocks and Design concept footer labels removed; design preview wording removed. Homepage description now mentions drone window cleaning in Singapore. Image credits retained. JavaScript, CSS, page structure and links preserved. robots.txt and sitemap.xml added exactly as requested.
+
+Existing quote/demo forms still only validate and show a local preview; they do not send or save enquiries. No backend added.
+
+Validation: all local page/CSS/app links resolve; all remaining missing references are existing assets. Sitemap XML parses and all 9 listed pages exist. Hosting headers and live deployment have not been verified.

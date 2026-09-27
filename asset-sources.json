@@ -1,0 +1,76 @@
+{
+  "usage": "Illustrative third-party facility photographs for private draft; not Altitude Robotics client projects. No licence verification performed for industry-source photographs.",
+  "assets": [
+    {
+      "file": "shopping-centre.jpg",
+      "category": "Shopping centres",
+      "source": "https://unsplash.com/pt-br/s/fotografias/shopping",
+      "image": "https://images.unsplash.com/photo-1559171667-74fe3499b5ba",
+      "note": "Real photograph. Curved glass shopping centre at dusk. Inspected."
+    },
+    {
+      "file": "hotel-exterior.jpg",
+      "category": "Hotels",
+      "source": "https://unsplash.com/s/photos/hotel-building",
+      "image": "https://images.unsplash.com/photo-1690314749019-2754cc7bfac9",
+      "note": "Real photograph. Beachfront hotel with palm trees. Inspected."
+    },
+    {
+      "file": "factory-exterior.jpg",
+      "category": "Factories",
+      "source": "https://www.imsat.ro/project/makita-branesti-romania-instalatii-electrice-mt-si-bt-pentru-hala-de-productie/?lang=fr",
+      "image": "https://www.imsat.ro/wp-content/uploads/2020/02/Makita.jpg",
+      "note": "Real photograph. Makita production hall, Romania; visible brand logo. Inspected."
+    },
+    {
+      "file": "landed-house.jpg",
+      "category": "Landed homes",
+      "source": "https://www.summerhaus.com.sg/landed-houses",
+      "image": "https://images.squarespace-cdn.com/content/v1/52062762e4b01247d70734eb/1719814703380-FD7N5K5S9YBY2JA8JRD9/SR%2B%2814%29.JPG",
+      "note": "Real photograph. Modern Singapore landed house. Inspected."
+    },
+    {
+      "file": "condominium.jpg",
+      "category": "Condominiums",
+      "source": "https://www.edgeprop.sg/property-news/resale-unit-palm-spring-district-10-reaps-115-mil-profit",
+      "image": "https://sg.tepcdn.com/public/usr/6xjasb/3312c5-BLD-RHAPSODY-ON-MT-ELIZABETH-02-GY-Copy.jpg",
+      "note": "Real photograph. Rhapsody on Mount Elizabeth, Singapore. Inspected."
+    },
+    {
+      "file": "industrial-rooftop-solar.jpg",
+      "category": "Commercial and industrial rooftop solar",
+      "source": "https://www.df.cl/df-mas/punto-de-partida/horacio-melo-a-10-anos-de-la-fundacion-de-solarity",
+      "image": "https://www.df.cl/noticias/site/artic/20240712/imag/foto_0000000220240712150618/Planta_Solaer_Solarity_jpg.jpg",
+      "note": "Real photograph. Solar arrays on industrial roof. Inspected."
+    },
+    {
+      "file": "residential-rooftop-solar.webp",
+      "category": "Residential rooftop solar",
+      "source": "https://www.getcurrents.com/resources/marylands-new-srec-prices",
+      "image": "https://cdn.prod.website-files.com/654d0a90a593c1ad08415c26/66ccc23c156323467b207c07_solar%20at%20home%201.webp",
+      "note": "Real photograph. Solar panels on blue house roof. Inspected."
+    },
+    {
+      "file": "mixed-use-real.jpg",
+      "category": "Mixed-use developments",
+      "source": "https://archinect.com/news/article/150098368/woha-s-kampung-admiralty-is-crowned-world-architecture-festival-building-of-the-year-for-2018",
+      "image": "https://archinect.gumlet.io/uploads/ab/ab6ba070da8a55a370e40be572d265e3.jpeg?auto=compress%2Cformat",
+      "note": "Real photograph. Kampung Admiralty in Singapore combines residential, medical, retail and community spaces. Inspected."
+    },
+    {
+      "file": "bishan-hdb.jpg",
+      "category": "HDB blocks",
+      "source": "https://commons.wikimedia.org/wiki/File:Bishan_HDB.JPG",
+      "credit": "Terence Ong / Wikimedia Commons",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "note": "Real HDB blocks in Bishan, Singapore. Display cropped with CSS; image file unchanged."
+    }
+  ],
+  "rejected": [
+    {
+      "file": "mixed-use-development.jpg",
+      "reason": "Architectural render; use mixed-use-real.jpg instead."
+    }
+  ]
+}
